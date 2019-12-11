@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 63.1" xml:space="preserve">
+  <style type="text/css">
+    .header-logo-1{fill:#F0F0F0;}
+    .header-logo-2{fill:url(#header-logo-gradient1);}
+    .header-logo-3{fill:url(#header-logo-gradient2);}
+    .header-logo-4{opacity:0.3;fill:url(#header-logo-gradient3);enable-background:new;}
+  </style>
+  <defs>
+    <linearGradient id="header-logo-gradient1" gradientUnits="userSpaceOnUse" x1="22.281" y1="419.6743" x2="29.2473" y2="447.2813" gradientTransform="matrix(1 0 0 1 0 -403.7955)">
+      <stop offset="1.093000e-02" style="stop-color:#e67417"></stop>
+      <stop offset="0.9995" style="stop-color:#e62F17"></stop>
+    </linearGradient>
+    <linearGradient id="header-logo-gradient2" gradientUnits="userSpaceOnUse" x1="27.7602" y1="427.7369" x2="27.7602" y2="460.6301" gradientTransform="matrix(1 0 0 1 0 -403.7955)">
+      <stop offset="0" style="stop-color:#f2bb30"></stop>
+      <stop offset="0.309" style="stop-color:#e67417"></stop>
+      <stop offset="1" style="stop-color:#e62F17"></stop>
+    </linearGradient>
+    <linearGradient id="header-logo-gradient3" gradientUnits="userSpaceOnUse" x1="40.4457" y1="442.2227" x2="42.9065" y2="430.7977" gradientTransform="matrix(1 0 0 1 0 -403.7955)">
+      <stop offset="0" style="stop-color:#fff"></stop>
+      <stop offset="1" style="stop-color:#fff;stop-opacity:0"></stop>
+    </linearGradient>
+  </defs>
+  <g id="header-logo-text-mark">
+    <path id="header-letter-m" fill="#000" d="M74.8,22.3c2.5-2.5,5-4.1,8.2-4.1c3.7,0,6.3,1.4,7.4,4.7c3.3-3.4,5.9-4.7,9-4.7c5.3,0,8,3,8,9.9v16h-6.1	V29.7c0-4-0.7-5.8-3.6-5.8c-2,0-4.2,1.2-6.6,3.8v16.3h-6V29.7c0-4-0.9-5.8-3.7-5.8c-2.2,0-4.5,1.4-6.6,3.9v16.3h-6V18.7h6	L74.8,22.3z"></path>
+    <path id="header-letter-o" fill="#000" d="M135.6,31.6c0,7.9-5,13-12.9,13s-12.9-5.1-12.9-13c0-8.2,5-13.3,12.9-13.3C130.6,18.2,135.6,23.4,135.6,31.6 z M129.7,31.6c0-5.3-2.7-8.3-7-8.3c-4.2,0-6.9,3-6.9,8.3c0,5.1,2.7,8,6.9,8C127,39.6,129.7,36.7,129.7,31.6L129.7,31.6z"></path>
+    <path id="header-letter-l" fill="#000" d="M138,44.1V9.4h6v34.7H138z"></path>
+    <path id="header-letter-t" fill="#000" d="M164.8,43c-2,0.8-4.2,1.3-6.4,1.3c-5.6,0-7.9-2.6-7.9-8.9V23.8h-3.7v-5.1h3.7v-6.1h6.1v6.1h7v5.1h-7v11.5	c0,3,1.1,3.9,3.9,3.9c1.2,0,2.4-0.1,3.6-0.2L164.8,43z"></path>
+    <path id="header-letter-i" fill="#000" d="M170.7,8.1c1.9,0,3.5,1.1,3.5,3.3s-1.7,3.2-3.5,3.2s-3.5-1.1-3.5-3.2S168.8,8.1,170.7,8.1z M167.7,44.1V18.7	h6v25.3L167.7,44.1z"></path>
+    <path id="header-letter-n" fill="#000" d="M182.7,22.3c2.8-2.5,5.4-4,9-4c5.6,0,8.3,3,8.3,9.9v16h-6V29.7c0-4.1-0.6-5.8-4-5.8c-2.7,0-5.1,1.5-7.3,3.9 v16.2h-6V18.7h6V22.3z"></path>
+  </g>
+  <g id="header-logo-icon">
+    <path class="header-logo-1" d="M53.1,15.9L28.6,1.7c-0.5-0.3-1.2-0.3-1.8,0L2.4,15.9c-0.5,0.3-0.9,0.9-0.9,1.5v28.3c0,0.6,0.3,1.2,0.9,1.5 l24.5,14.1c0.5,0.3,1.2,0.3,1.8,0l24.5-14.1c0.5-0.3,0.9-0.9,0.9-1.5V17.4C54,16.8,53.7,16.2,53.1,15.9z"></path>
+    <path class="header-logo-2" d="M5.8,45.4c-0.6-0.4-1-1-1-1.7V29.3c0-1.7,0.2-3.3,0.7-4.9c0.8-2.3,2.5-4.5,5.8-5.8c6.3-2.5,12.5,0.9,16,5.9 c2.9,4.2,4.7,5.9,8.4,8.7c3.3,2.5,13.6,7,15.1-2v12.4c0,0.7-0.4,1.4-1,1.7l-21,12.1c-0.6,0.4-1.4,0.4-2,0L5.8,45.4z"></path>
+    <path class="header-logo-3" d="M5.8,45.4l21,12.1c0.6,0.4,1.4,0.4,2,0l21-12.1c0.6-0.4,1-1,1-1.7V31.3c0-9.2-10.2-9.9-15.5-2.6 c-4.2,5.8-6,7.8-11.6,9.9c-6.5,2.4-12.4,1.1-15.8-2.2c-1.9-1.8-3-4.4-3-7v14.4C4.8,44.4,5.2,45,5.8,45.4z"></path>
+    <path class="header-logo-4" d="M50.7,31.3c0-9.2-10.2-9.9-15.5-2.6c-0.7,1-1.4,1.9-2,2.7c0.7,0.6,1.5,1.2,2.4,1.9 C38.9,35.8,49.2,40.3,50.7,31.3z"></path>
+  </g>
+</svg>

@@ -43,68 +43,66 @@ title: Freeman Industries
 			</p>
 
 			<h1>
-				Explore Our Work
+				Partners
 			</h1>
-		</div>
 
-		<p>
-			<div class="thumbs">
-				{% include contract_thumbnail.html 
-					title="LeSalon" 
-					slug="lesalon" 
-				%}
-				
-				{% include contract_thumbnail.html 
-					title="Papertrail for Mobile" 
-					slug="papertrail-mobile" 
-				%}
-				
-				{% include contract_thumbnail.html 
-					title="Tippler" 
-					slug="tippler" 
-				%}
-				
-				{% include contract_thumbnail.html 
-					title="Receptive" 
-					slug="receptive" 
-				%}
-				
-				{% include contract_thumbnail.html 
-					title="Emojify" 
-					slug="emojify" 
-				%}
-				
-				{% include contract_thumbnail.html 
-					title="Papertrail for Web" 
-					slug="papertrail" 
-				%}
-				
-				{% include contract_thumbnail.html 
-					title="EmberWatch" 
-					slug="emberwatch" 
-				%}
-				
-				{% include contract_thumbnail.html 
-					title="Deck of Cards Workout" 
-					slug="deck-of-cards-workout" 
-				%}
-				
-				{% include contract_thumbnail.html 
-					title="Famous Workouts" 
-					slug="famous-workouts" 
+			<p>
+				I came up in the UK startup scene. Everybody I've worked for I know really well and I'm proud that I've played a small part in my friends' successes:
+			</p>
+
+			{% include year_marker.html
+				year="2017"
+			%}
+
+			<div class="businesses">
+				{% include contract_business.html 
+					title="LeSalon"
+					slug="lesalon"
+					url="https://lesalon.com"
+					description="Started as a contractor and then joined JM and Natasha as their co-founder. It's now a 7 figure business and we're just getting started."
 				%}
 			</div>
-		</p>
 
-		<script>
-			if(document.body.clientWidth > 716){
-				var thumbnails = document.querySelectorAll(".thumbnail");
+			{% include year_marker.html
+				year="2016"
+			%}
+			
+			<div class="businesses">
+				{% include contract_business.html 
+					title="Receptive"
+					slug="receptive"
+					url=""
+					description="Designed & built UI for 1st & 2nd versions of dashboard. Acquired by Pendo.io in 2019."
+				%}
+				
+				{% include contract_business.html 
+					title="Papertrail"
+					slug="papertrail"
+					url="https://papertrail.io"
+					description="Implemented designs on web, iOS and Android apps in the early days. Now a 7 figure business."
+				%}
+			</div>
 
-				thumbnails.forEach(function(thumbnail){
-					thumbnail.querySelector("video").play();
-				})
-			}
-		</script>
+			{% include year_marker.html
+				year="2015"
+			%}
+
+			<div class="businesses">
+				{% include contract_business.html 
+					title="Moltin"
+					slug="moltin"
+					url="https://moltin.com"
+					description="Built some product widget experiments in the early days. Now an 8 figure business."
+				%}
+				
+				{% include contract_business.html 
+					title="Matchchat"
+					slug="matchchat"
+					url="https://matchchat.co.uk"
+					description="I started Matchchat and after it was bought I decided to take a break from being a founder."
+				%}
+			</div>
+		</div>
 
 		{% include footer.html %}
 
