@@ -20,66 +20,92 @@ title: Freeman Industries
 				My name's Nabil Freeman, a European entrepreneur and JavaScript developer.<br />I build world-class software for companies who have found product market fit.
 			</p>
 		</div>
-		
+
 		<div class="container">
 			<h1>
-				Hiatus
+				Partners
+			</h1>
+
+			<p>
+				I came up in the UK startup scene. Everybody I've worked for I know really well and I'm proud that I've played a small part in my friends' successes:
+			</p>
+
+			{% include year_marker.html
+				year="2017"
+			%}
+
+			<div class="businesses">
+				{% include contract_business.html 
+					title="LeSalon"
+					slug="lesalon"
+					emoji="💆🏻‍♀️"
+					url="https://lesalon.com"
+					description="Started as a contractor and then joined JM and Natasha as their co-founder. It's now a 7 figure business and we're just getting started."
+				%}
+			</div>
+
+			{% include year_marker.html
+				year="2016"
+			%}
+			
+			<div class="businesses">
+				{% include contract_business.html 
+					title="Receptive"
+					slug="receptive"
+					emoji="💁🏼‍♂️"
+					url="https://www.pendo.io/pendo-blog/pendo-acquires-product-feedback-innovator-receptive/"
+					description="Designed & built UI for first version of the dashboard. Acquired by Pendo.io in 2019."
+				%}
+				
+				{% include contract_business.html 
+					title="Papertrail"
+					slug="papertrail"
+					emoji="🧗🏾‍♀️"
+					url="https://papertrail.io"
+					description="Implemented designs on their web & mobile apps early on. Now a 7 figure business."
+				%}
+			</div>
+
+			{% include year_marker.html
+				year="2015"
+			%}
+
+			<div class="businesses">
+				{% include contract_business.html 
+					title="Moltin"
+					slug="moltin"
+					emoji="🛍️"
+					url="https://moltin.com"
+					description="Built some product widget experiments in the early days. Now an 8 figure business."
+				%}
+				
+				{% include contract_business.html 
+					title="Matchchat"
+					slug="matchchat"
+					emoji="⚽"
+					url="https://matchchat.co.uk"
+					description="I started Matchchat and after it was bought I decided to take a break from being a founder."
+				%}
+			</div>
+
+			<h1>
+				Rates and Charges
 			</h1>
 			
 			<p>
-				I'm a dad (beautiful 2-year-old), and a founder again (CTO of <a href="https://lesalon.com">LeSalon Beauty</a>).<br />Time for a break from contracting.
+				Planning & Consultation: <strong>Free</strong>
 			</p>
-		</div>
-
-		<div>
-			<h1>
-				Links
-			</h1>
-			<div class="thumbs">
-				<div class="thumbnail">
-					<a href="/contracts">
-						<div class="title">
-							Contracts
-						</div>
-						<div class="meta">
-							Everything you need to know to work with me.
-						</div>
-					</a>
-				</div>
-
-				<div class="thumbnail">
-					<a href="https://angel.co/nabil">
-						<div class="title">
-							Resumé
-						</div>
-						<div class="meta">
-							My career and education (externally on AngelList)
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="container">
-			<h1>
-				Contact
-			</h1>
+			
 			<p>
-				Contact me any time at <span class="freeman-email"></span>. No salespeople, no recruiters. You can find me in London, Shanghai, or somewhere in between.
+				Design & Development: <strong>£600 / day</strong>
+			</p>
+
+			<p>
+				Enquires: <span class="freeman-email"></span>. You can find me in London, Shanghai, or somewhere in between.
 			</p>
 		</div>
 
 		{% include floating_head.html %}
-
-		<script>
-			if(document.body.clientWidth > 716){
-				var thumbnails = document.querySelectorAll(".thumbnail");
-
-				thumbnails.forEach(function(thumbnail){
-					thumbnail.querySelector("video").play();
-				})
-			}
-		</script>
 
 		{% include footer.html %}
 
