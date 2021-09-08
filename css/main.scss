@@ -29,8 +29,10 @@
 	transition:$length;
 }
 
+$font-sans: BlinkMacSystemFont, -apple-system, 'Roboto', 'Segoe UI', 'Inconsolata', 'Menlo', 'Ubuntu', 'Courier New', 'Courier', monospace;
+
 body{
-	font-family:BlinkMacSystemFont, -apple-system, 'Roboto', 'Segoe UI', 'Inconsolata', 'Menlo', 'Ubuntu', 'Courier New', 'Courier', monospace;
+	font-family:$font-sans;
 
 	text-align:center;
 
@@ -280,4 +282,4 @@ body{
 	}
 }
 
-@import "voternator-demo";
+@import "alert";

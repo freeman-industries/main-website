@@ -1,0 +1,158 @@
+.freeman-alert-wrapper {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: fixed;
+    top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background:rgba(0,0,0,0.4);
+	padding: 20px;
+
+	opacity: 0;
+	animation-name: alert-wrapper-appear;
+	animation-duration: 0.2s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+
+	z-index: 2147483647;
+}
+
+.freeman-alert {
+	width: 300px;
+	background: #FFF;
+	box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+	z-index: 99999;
+	font-family: $font-sans;
+	color: #1E2847;
+
+	/* this animation is delayed so it occurs after the wrapper fades in. */
+	opacity: 0;
+	transform: scale(0.9);
+	animation-name: alert-inner-appear;
+	animation-duration: 0.2s;
+	animation-delay: 0.2s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+}
+
+.freeman-alert > * {
+	margin: 10px 0px;
+}
+
+.freeman-alert > *:first-child {
+	margin-top: 0px;
+}
+
+.freeman-alert > *:last-child {
+	margin-bottom: 0px;
+}
+
+.freeman-alert-title {
+	font-family: $font-sans;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.freeman-alert-message {
+	white-space: pre-line;
+}
+
+.freeman-alert-buttons {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	margin-top: 20px;
+}
+
+.freeman-alert-buttons > *:not(:first-child) {
+	margin-top: 10px;
+}
+
+.freeman-alert-buttons.freeman-alert-buttons-row {
+	flex-direction: row;
+}
+
+.freeman-alert-buttons.freeman-alert-buttons-row > button {
+	flex: 1;
+}
+
+.freeman-alert-buttons.freeman-alert-buttons-row > *:not(:first-child) {
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+button.freeman-alert-button {
+	min-height: 40px;
+	font-family: $font-sans;
+	font-size: 1em;
+	border-radius: 12px;
+	border: none;
+	background: #4000FF;
+	color: white;
+	transform:scale(1);
+	box-shadow: inset 0px 100px 0px transparent;
+	cursor: pointer;
+	padding: 10px;
+	text-transform: none;
+	letter-spacing: normal;
+}
+
+button.freeman-alert-button.cancel {
+    background: #CDCDCD;
+	color: #1E2847;
+}
+
+button.freeman-alert-button.destructive {
+    background: #CDCDCD;
+	color: #FC4C4F;
+}
+
+button.freeman-alert-button:hover {
+	box-shadow: inset 0px 100px 0px rgba(255,255,255,0.2);
+}
+
+button.freeman-alert-button:active {
+	transition:none;
+	box-shadow: inset 0px 100px 0px rgba(0,0,0,0.1);
+	transform:scale(0.99) translateY(-1px);
+}
+
+/* ANIMATIONS */
+@keyframes alert-wrapper-appear {
+	from, to {
+		animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+	}
+
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes alert-inner-appear {
+	from, to {
+		animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+	}
+
+	from {
+		opacity: 0;
+		transform: scale(0.9)
+	}
+
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
