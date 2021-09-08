@@ -123,6 +123,7 @@ body{
 		.business{
 			flex: 1;
 			max-width:50%;
+			min-width: calc(50% - 80px);
 			margin:20px 40px;
 			
 			@media(max-width:767px){
@@ -139,6 +140,14 @@ body{
 					width:100%;
 					height: 30px;
 				}
+			}
+
+			&.homecooked .logo svg {
+				height: 24px;
+			}
+
+			&.embrace-the-adventure .logo svg {
+				height: 60px;
 			}
 
 			.description{
